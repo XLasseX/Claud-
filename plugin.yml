@@ -1,0 +1,17 @@
+name: DonutSMPCore
+version: 1.1.0
+main: de.donutsmp.core.DonutSMPCore
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+commands:
+  shards:
+    description: Manage shards
+    usage: /shards [balance|give|take|set]
+  team:
+    description: Manage SMP teams
+    usage: /team <create|invite|accept|leave|kick|disband|info|chat>
+permissions:
+  donutsmp.shards.admin:
+    default: op
+  donutsmp.team.admin:
+    default: op

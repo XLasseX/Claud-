@@ -1,0 +1,6 @@
+team:
+  max-size: 8
+  name-max-length: 16
+  allow-friendly-fire: false
+playtime:
+  save-interval-seconds: 60
